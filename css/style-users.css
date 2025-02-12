@@ -1,0 +1,74 @@
+/* Style du dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid  #ddd;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    margin-top: -10px ;
+}
+.dropdown-toggle:hover{
+    background-color: #ddd;
+    color : rgb(8, 8, 117)  ;
+    font-weight: 300;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-family:'Poppins', sans-serif; 
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown.active .dropdown-menu {
+    display: block;
+}
+
+/* Style pour l'icône de flèche */
+.arrow {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.nomuser{
+    margin-right: 5px;
+    font-family:'Poppins', sans-serif; 
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 10px ;
+    border: 1px solid darkorange;
+    border-radius: 100%;
+    background-color: rgb(8, 8, 117)  ;
+    color: white;
+    width: 80px;
+    text-align: center;
+    
+}

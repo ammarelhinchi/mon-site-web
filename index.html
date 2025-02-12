@@ -1,0 +1,123 @@
+<?php
+echo "bonjour ammar";
+?>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Algorithmiques et programmation</title>  
+    <!-- Fonts -->  
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">  
+    <!-- Font Awesome Icons -->   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="card/style.css">
+    <link rel="stylesheet" href="modle/style.css">
+</head>  
+<body>  
+    
+    <header>  
+        <div class="top">
+        <div class="logo">  
+            <h1>Algorithmiques & programmation</h1>  
+            
+        </div> 
+        <div class="sep1"><p></p></div> 
+        <div class="btns">  
+            <button id="openModal">Cours</button>  
+            <button>Exercices</button>  
+            <button>Examens</button> 
+            <div class="sep2"></div>
+            <i class="icone fas fa-magnifying-glass"></i> 
+            <div class="search">
+                <input type="text" class="textsearch" placeholder="Rechercher...">
+                <!-- Changed fo "fas" to match the correct class -->
+            </div> 
+            <div class="user">
+                <i class="iconeuser fa-solid fa-circle-user"></i>
+            </div>
+            
+        </div>  
+        
+    </div>
+    </header>  
+
+    <!--MODALE-->
+    <div id="myModal" class="modal">  
+        <div class="modal-content">  
+            <span class="close">&times;</span>  
+            
+            <div class="cards">
+                <div class="card" id="carte1">  
+                    <img src="images/cn1.png" alt="Image de la carte" class="card-image">  
+                </div>
+                
+                <div class="card" id="carte2">  
+                    <img src="images/cn2.png" alt="Image de la carte" class="card-image">  
+                </div>
+
+                <div class="card" id="carte3">  
+                    <img src="images/cn3.png" alt="Image de la carte" class="card-image">  
+                </div>
+
+            </div>
+        </div>  
+    </div>  
+    
+    <main>  
+        <div class="intro">  
+            <!-- Add your introduction content here if needed -->  
+             <h1>La programmation est un art, alors soyez des artistes.</h1>
+             <h3>Maîtrisez les algorithmes, et les possibilités seront infinies!</h3>
+             <div class="image1"><img src="images/img1.jpg"></div>
+        </div>  
+        
+       <div class="cards">
+            <div class="card">  
+            <img src="images/Cours.png" alt="Image de la carte" class="card-image">  
+            <div class="card-content">  
+                <h2 class="card-title">Cours detaillé</h2>  
+                <p class="card-description">Ceci est une description de la carte. Il peut contiendrer quelques informations sur le sujet.</p>  
+                <a href="#" class="card-button">En savoir plus</a>  
+            </div>  
+            </div>
+            <div class="card">  
+            <img src="images/exercices.png" alt="Image de la carte" class="card-image">  
+            <div class="card-content">  
+                <h2 class="card-title">Series corrigées</h2>  
+                <p class="card-description">Ceci est une description de la carte. Il peut contiendrer quelques informations sur le sujet.</p>  
+                <a href="#" class="card-button">En savoir plus</a>  
+            </div>  
+            </div>
+            <div class="card">  
+            <img src="images/examens.png" alt="Image de la carte" class="card-image">  
+            <div class="card-content">  
+                <h2 class="card-title">Examens + Suj. Bac.</h2>  
+                <p class="card-description">Ceci est une description de la carte. Il peut contiendrer quelques informations sur le sujet.</p>  
+                <a href="#" class="card-button">En savoir plus</a>  
+            </div>  
+            </div>
+       </div>
+    
+       <hr>
+       <h1>Liste des cours Algorithmiques</h1>
+       <hr>
+       <hr>
+       <h1>Liste des cours Algorithmiques</h1>
+       <hr>
+       <hr>
+       <h1>Liste des cours Algorithmiques</h1>
+       <hr>
+    </main>  
+      
+    <footer>
+        <hr>  
+        <div class="links"></div>  
+    </footer>  
+    <script src="modle/script.js"></script> 
+    <script src="js/app.js"></script>
+</body>  
+</html>

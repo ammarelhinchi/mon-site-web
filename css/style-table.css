@@ -1,0 +1,29 @@
+table {  
+    width: 80%; /* Largeur du tableau */  
+    border-collapse: collapse; /* Fusionner les bordures des cellules */  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre pour le tableau */  
+    background-color: #fff; /* Couleur de fond du tableau */  
+}  
+
+th, td {  
+    padding: 12px; /* Espacement interne des cellules */  
+    text-align: center; /* Alignement du texte à gauche */  
+    border-bottom: 1px solid #ddd; /* Bordure en bas des cellules */  
+    color : rgb(8, 8, 117) ;
+    font-weight: 300;
+}  
+
+th {  
+    background-color: #4CAF50; /* Couleur de fond des en-têtes */  
+    color: white; /* Couleur du texte des en-têtes */  
+}  
+
+/* Lignes alternées du tableau */  
+tr:nth-child(even) {  
+    background-color: #f9f9f9; /* Couleur de fond pour les lignes paires */  
+}  
+
+/* Effet de survol */  
+tr:hover {  
+    background-color: #f1f1f1; /* Couleur de fond au survol */  
+}  

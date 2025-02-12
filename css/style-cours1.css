@@ -1,0 +1,154 @@
+body{
+   /* background-color: rgba(245, 235, 204, 0.986);  */
+    margin: 10px; 
+    font-family:'Poppins', sans-serif; 
+    font-weight: 200;
+    font-size: 20px;
+}
+.titre{
+    margin-top: 0;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    padding-bottom: 5px;
+    margin-left: 200px;
+    color: darkorange;
+}
+
+.sidebar{
+    width: 17%;
+    
+    /*height: 600px;*/
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color : rgb(8, 8, 117) ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;  
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    height: 100vh;        /* Hauteur de la sidebar égale à la hauteur de la fenêtre */  
+    position: fixed;
+
+}
+.paragraphe {
+    line-height: 2.5;
+    font-weight: 300;
+    padding-left: 20px;
+
+}
+
+.main{
+    width: 70%;
+    margin-right: 10px;
+    margin-left: 280px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    /*border: 1px solid #ccc;  */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+
+}
+#btnvar,#btncons, #btntypes, #btntab, #btnex{
+    font-family:'Poppins', sans-serif; 
+    font-weight: 200;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 10px; 
+}
+#btnvar:hover {
+    color: rgb(8, 8, 117)  ;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#btntypes:hover{
+    color: rgb(8, 8, 117)  ;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#btncons:hover{
+    color: rgb(8, 8, 117)  ;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#btntab:hover{
+    color: rgb(8, 8, 117)  ;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#btnex:hover{
+    color: rgb(8, 8, 117)  ;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.btn-1 {
+    display: flex;
+    margin-bottom: 30px;
+    transition: transform 0.2s;
+}
+.btn-1:hover{
+    transform: scale(1.05);
+}
+#imgbtn1,#imgbtn2, #imgbtn3,#imgbtn4,#imgbtn5{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.blue {  
+    filter: sepia(1) hue-rotate(210deg) saturate(5);  
+}  
+
+.number1, .number2,.number3,.number4,.number5{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+h3{
+    color : rgb(8, 8, 117) ;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+h4{
+    color: red;
+}
+
+.imgvariables {
+    float: right;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px;
+    width: 100%;             /* Remplir le conteneur */  
+    height: auto;
+    transition: transform 0.5s ease; /* Transition pour le zoom */  
+}
+
+.img-container {  
+    position: relative;       /* Position relative pour les éléments enfants */  
+    width: 300px;            /* Largeur de l'image */  
+    height: auto;            /* Hauteur automatique pour conserver le ratio */  
+}  
+
+/* Effet de zoom au survol */  
+.img-container:hover .imgvariables {  
+    transform: scale(2);   /* Zoom de 10% lors du survol */  
+}  
+
+
+
+
+ul{
+    list-style-type: none; /* Supprime les puces par défaut */ 
+}

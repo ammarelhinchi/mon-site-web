@@ -1,0 +1,105 @@
+<!DOCTYPE html>  
+<html lang="fr">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Tableau Stylé avec Animation</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif; /* Police par défaut */  
+            background-color: #f4f4f4; /* Couleur de fond */  
+            margin: 0;  
+            padding: 20px;  
+        }  
+
+        table {  
+            width: 100%; /* Largeur du tableau */  
+            border-collapse: collapse; /* Fusionne les bordures */  
+            margin: 20px 0; /* Marge autour du tableau */  
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre pour le tableau */  
+        }  
+
+        th, td {  
+            padding: 12px; /* Rembourrage intérieur des cellules */  
+            text-align: left; /* Alignement du texte à gauche */  
+            border-bottom: 1px solid #ddd; /* Bordure inférieure des cellules */  
+            transition: background-color 0.3s ease; /* Animation de la couleur de fond */  
+        }  
+
+        th {  
+            background-color: #4CAF50; /* Couleur de fond des en-têtes */  
+            color: white; /* Couleur du texte des en-têtes */  
+        }  
+
+        tr:hover {  
+            background-color: darkorange; /* Couleur de fond au survol de la ligne */  
+        }  
+
+        /* Style pour les cellules alternatives */  
+        tr:nth-child(even) {  
+            background-color: #f9f9f9; /* Couleur de fond des lignes paires */  
+        }  
+
+        /* Style pour le bouton */  
+        .btn {  
+            background-color: #4CAF50; /* Couleur de fond du bouton */  
+            color: white; /* Couleur du texte du bouton */  
+            padding: 10px 15px; /* Rembourrage */  
+            border: none; /* Pas de bordure */  
+            border-radius: 5px; /* Coins arrondis */  
+            cursor: pointer; /* Curseur pointer lors du survol */  
+            text-align: center; /* Centrer le texte */  
+            text-decoration: none; /* Pas de soulignement */  
+        }  
+
+        .btn:hover {  
+            background-color: #45a049; /* Couleur de fond au survol */  
+        }  
+    </style>  
+</head>  
+<body>  
+
+    
+
+    <h1>Exemple de Tableau Stylé avec Animation</h1>  
+    <table>  
+        <thead>  
+            <tr>  
+                <th>#</th>  
+                <th>Nom</th>  
+                <th>Âge</th>  
+                <th>Pays</th>  
+            </tr>  
+        </thead>  
+        <tbody>  
+            <tr>  
+                <td>1</td>  
+                <td>Jean Dupont</td>  
+                <td>28</td>  
+                <td>France</td>  
+            </tr>  
+            <tr>  
+                <td>2</td>  
+                <td>Maria Rossi</td>  
+                <td>34</td>  
+                <td>Italie</td>  
+            </tr>  
+            <tr>  
+                <td>3</td>  
+                <td>Kate Smith</td>  
+                <td>23</td>  
+                <td>Royaume-Uni</td>  
+            </tr>  
+            <tr>  
+                <td>4</td>  
+                <td>Hiroshi Tanaka</td>  
+                <td>40</td>  
+                <td>Japon</td>  
+            </tr>  
+        </tbody>  
+    </table>  
+
+    <button class="btn">Ajouter un Élément</button>  
+
+</body>  
+</html>
